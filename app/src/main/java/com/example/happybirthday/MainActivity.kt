@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    BirthdayGreeting(message = "Happy Birthday John!", from = "-from Jane")
+                    BirthdayGreeting(message = "Happy Birthday Jonathan!", from = "-from Jane")
                 }
             }
         }
@@ -61,7 +61,7 @@ fun BirthdayGreeting(message: String, from: String) {
 @Composable
 fun BirthdayGreetingPreview() {
     HappyBirthdayTheme {
-        BirthdayGreeting(message = "Happy Birthday John!", from = "-from Jane")
+        BirthdayGreeting(message = "Happy Birthday Jonathan!", from = "-from Jane")
     }
 }
 
